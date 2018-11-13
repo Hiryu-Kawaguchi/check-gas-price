@@ -15,11 +15,30 @@
         Cheak Gas Price
       </h1>
       <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
+        ガスの使用量を入力すると日本円に変換して出力されます
       </p>
       <div class="field">
+        <label class="label">Gas Used</label>
         <div class="control">
-          <input class="input" type="text" placeholder="Input">
+          <input class="input" type="number" placeholder="Gas Used" id="gasUsed">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Gas Price</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="loading" id="gasPrice" readonly>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">ETH Price</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="loading" id="ethPrice" readonly>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">gas to JPY Price</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="gas to JPY Price" id="gasToJPY" value="0" readonly>
         </div>
       </div>
     </div>
